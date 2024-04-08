@@ -7,8 +7,8 @@ const Pricing = () => {
       <div className="price-devider"></div>
       <p className="price-text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
-        suspendisse ultrices gravida.
+        tempor incididunt ut labore et <br />
+        dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
       </p>
       <div className="price-cards">
         <div className="price-card">
@@ -62,8 +62,6 @@ const Pricing = () => {
           <div className="price-card-devider"></div>
           <button>Choose plan</button>
         </div>
-        
-
       </div>
     </div>
   );

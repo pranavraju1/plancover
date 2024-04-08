@@ -7,8 +7,8 @@ const AppScreenshots = () => {
       <div className="screen-devider"></div>
       <p className="screen-text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
-        suspendisse ultrices gravida.
+        tempor incididunt ut labore et <br />
+        dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
       </p>
       <img src="screen-banner.png" className="screen-banner" alt="" />
       <div className="overview">

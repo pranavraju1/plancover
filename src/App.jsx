@@ -13,10 +13,10 @@ const App = () => {
       <NavigationBar />
       <Home />
       <Pages />
-      <HowItWorks/>
-      <AppScreenshots/>      
-      <Pricing/>      
-      <Footer/>
+      <HowItWorks />
+      <AppScreenshots />
+      <Pricing />
+      <Footer />
     </div>
   );
 };
