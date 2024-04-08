@@ -1,0 +1,97 @@
+@import '../../App.scss';
+.howitworks{
+  height: 644px;
+  width: 100%;
+  background-image: url('../../../public/how-banner.png');
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the image */
+  display: flex;
+  gap:100px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+  margin-top: 100px;
+  @include mobile{
+    padding: 20px;
+  }
+  .how-phone{
+    margin-top: 20px;
+    @include tablet{
+      display: none;
+    }
+    @include mobile{
+      display: none;
+    }
+
+  };
+  .how{
+    display: flex;
+    flex-direction: column;
+    @include mobile{
+      justify-content: center;
+      align-items: center;
+    }
+    .how-head{
+      font-size: 39px;
+      line-height: 69px;
+      color: #192b3d;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+    .how-divider{
+      width: 70px;
+      height: 2px;
+      border-radius: 1px;
+      background-color: #e8445f;
+      margin-bottom: 20px;
+
+    }
+    .how-text{
+      // width: 510px;
+      // height: 40px;
+      font-size: 14px;
+      color: #666666;
+      margin-bottom: 20px;
+
+    }
+    .how-details{
+      display: flex;
+      flex-direction: column;
+      .how-detail{
+        display: flex;
+        @include mobile{
+          flex-direction: column;
+        }
+        .how-item{
+          display: flex;
+          gap: 10px;
+          img{
+            height: 46px;
+            width: 46px;
+          }
+          .how-item-texts{
+            display: flex;
+            flex-direction: column;
+            .how-item-text1{
+              font-size: 22px;
+              letter-spacing: 0px;
+              line-height: 30px;
+              color: #192b3d;
+              font-weight: 600;
+              @include mobile{
+                margin: 0;
+              }
+            }
+            .how-item-text2{
+              width: 285px;
+              height: 63px;
+              font-size: 14px;
+              color: #666666;
+            }
+
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,105 @@
+@import '../../App.scss';
+.pricing{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+  margin-bottom: 100px;
+  margin-top: 100px;
+  .price-head{
+    font-size: 39px;
+    line-height: 68px;
+    color: #192b3d;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .price-devider{
+    width: 70px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #e8445f;
+    margin-bottom: 20px;
+
+  }
+  .price-text{
+    // width: 715px;
+    // height: 40px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+    margin-bottom: 40px;
+    @include mobile{
+      padding: 20px;
+    }
+  }
+  .price-cards{
+    display: flex;
+    @include tablet{
+      flex-direction: column;
+    }
+    @include mobile{
+      flex-direction: column;
+    }
+    gap: 10px;
+    .price-card{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 350px;
+      height: 554px;
+      border-radius: 15px;
+      filter: drop-shadow(0 0 10px rgba(0,0,0,0.1));
+      background-color: #ffffff;
+      .price-card-text1{
+        font-size: 26px;
+        letter-spacing: 1px;
+        line-height: 43px;
+        color: #192b3d;
+        font-weight: 600;
+        margin: 0;
+
+      }
+      .price-card-text2{
+        font-size: 55px;
+        line-height: 71px;
+        color: #e8445f;
+        margin: 0;
+
+      }
+      .price-card-text3{
+        font-size: 20px;
+        letter-spacing: 0px;
+        line-height: 43px;
+        color: #192b3d;
+        font-weight: 500;
+        margin: 0;
+
+      }
+      .price-card-devider{
+        width: 302px;
+        height: 1px;
+        border-radius: 1px;
+        background-color: #f0f1ff;
+      }
+      .price-card-details{
+        font-size: 16px;
+        line-height: 50px;
+        color: #666666;
+        font-weight: 400;
+        margin: 0;
+      }
+      button{
+        width: 150px;
+        height: 50px;
+        border-radius: 7px;
+        background-color: #e8445f;
+        color: white;
+        border: none;
+        font-size: 14px;
+        margin-top: 20px;
+      }
+    }
+  }
+}

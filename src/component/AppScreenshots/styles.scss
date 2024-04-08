@@ -1,0 +1,64 @@
+@import '../../App.scss';
+.screenshots{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+  margin-top: 100px;
+
+  .screen-head{
+    font-size: 39px;
+    line-height: 68px;
+    color: #192b3d;
+    font-weight: 700;
+    margin-bottom: 20px;
+    // text-align: center;
+  }
+  .screen-devider{
+    width: 70px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #e8445f;
+    margin-bottom: 20px;
+
+  }
+  .screen-text{
+    // width: 715px;
+    // height: 40px;
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    margin-bottom: 40px;
+    @include mobile{
+      padding: 20px;
+    }
+
+  }
+  .screen-banner{
+    @include tablet{
+      width: 100%;
+    }
+    @include mobile{
+      width: 100%;
+    }
+  }
+  .overview{
+    width: 100%;
+    height: 391px;
+    background-color: #26313b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    p{
+      font-size: 40px;
+      letter-spacing: 2px;
+      line-height: 55px;
+      color: #ffffff;
+      font-weight: 300;
+      text-align: center;
+    }
+  }
+}
